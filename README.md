@@ -48,12 +48,6 @@ This project uses **Logistic Regression** and **SMOTE** to detect fraudulent cre
 
 ---
 
-## ▶️ Run the Project
-
-```bash
-pip install -r requirements.txt
-```
-
 Open the notebook in Jupyter or Colab and run all cells.
 
 ---
