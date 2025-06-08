@@ -1,24 +1,33 @@
+
 # 💳 Credit Card Fraud Detection (ML Project)
 
 This project uses **Logistic Regression** and **SMOTE** to detect fraudulent credit card transactions in a highly imbalanced dataset.
 
-## 📊 Dataset
+---
 
-- **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- 284,807 transactions with 492 frauds.
-- Features are PCA-transformed (`V1` to `V28`) + `Time`, `Amount`
+## 📦 Dataset
 
-## 🧠 Model Summary
+- **Original Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- The original dataset is over 150MB and can't be uploaded to GitHub directly.
+- For demonstration purposes, this repository includes a small sample: `sample_creditcard.csv`
 
-- Preprocessed with `StandardScaler`
-- Balanced using `SMOTE` oversampling
-- Trained with `LogisticRegression`
-- Evaluated with:
-  - Confusion matrix
-  - Precision/Recall/F1
-  - ROC-AUC score
+> To run the full analysis, download the complete dataset from the Kaggle link above and place `creditcard.csv` in the project directory.
 
-### 🔍 Final Metrics
+---
+
+## 🧠 Techniques Used
+
+- Data preprocessing with `StandardScaler`
+- Handling class imbalance using `SMOTE` (Synthetic Minority Oversampling Technique)
+- Model training with **Logistic Regression**
+- Evaluation using:
+  - Confusion Matrix
+  - Precision, Recall, F1-Score
+  - ROC-AUC Score
+
+---
+
+## 📈 Results
 
 | Metric         | Value     |
 |----------------|-----------|
@@ -27,13 +36,32 @@ This project uses **Logistic Regression** and **SMOTE** to detect fraudulent cre
 | Precision      | 6%        |
 | ROC-AUC        | 0.9785    |
 
-## 💡 Learnings
+> Recall is prioritized over precision due to the nature of fraud detection (better to catch more frauds even if some false positives occur).
 
-- Recall > Precision is acceptable in fraud detection
-- SMOTE improves recall significantly
-- ROC-AUC is more stable than accuracy on imbalanced data
+---
 
-## 🧪 Setup
+## 📁 Files
+
+- `fraud_detection.ipynb` – Jupyter Notebook with the full ML pipeline
+- `sample_creditcard.csv` – A 1000-row sample of the dataset
+- `requirements.txt` – Required Python libraries
+
+---
+
+## ▶️ Run the Project
 
 ```bash
 pip install -r requirements.txt
+```
+
+Open the notebook in Jupyter or Colab and run all cells.
+
+---
+
+## 🧠 Author
+
+- **Name:** Diptaraj Sinha  
+- **GitHub:** [@yourusername](https://github.com/yourusername)  
+- *(Optional)* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+
+---
