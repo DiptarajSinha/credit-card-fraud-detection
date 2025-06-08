@@ -61,7 +61,7 @@ Open the notebook in Jupyter or Colab and run all cells.
 ## 🧠 Author
 
 - **Name:** Diptaraj Sinha  
-- **GitHub:** [@yourusername](https://github.com/yourusername)  
-- *(Optional)* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [@yourusername](https://github.com/DiptarajSinha)  
+- *(Optional)* **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/diptaraj-sinha-b2270b256)
 
 ---
